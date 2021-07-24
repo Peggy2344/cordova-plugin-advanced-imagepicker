@@ -22,7 +22,8 @@
         <source-file src="src/android/AdvancedImagePicker.java" target-dir="src/de/einfachhans/AdvancedImagePicker"/>
         <source-file src="src/android/AdvancedImagePickerErrorCodes.java" target-dir="src/de/einfachhans/AdvancedImagePicker"/>
         <framework src="src/android/build.gradle" custom="true" type="gradleReference"/>
-
+        <resource-file src="src/android/res/drawable/bg_btn.xml" target="res/drawable/bg_btn.xml"/>
+        <resource-file src="src/android/res/values/color.xml" target="res/values/color.xml"/>
         <preference name="ANDROID_IMAGE_PICKER_VERSION" default="1.1.10" />
         <framework src="gun0912.ted:tedimagepicker:$ANDROID_IMAGE_PICKER_VERSION"/>
     </platform>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ted_image_picker_primary">#34B79B</color>
+    <color name="ted_image_picker_primary_pressed">#34B79B</color>
+</resources>
