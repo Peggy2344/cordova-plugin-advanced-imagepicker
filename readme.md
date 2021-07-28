@@ -4,8 +4,8 @@
 
 This [Cordova](https://cordova.apache.org) Plugin is for a better (multiple) ImagePicker with more options.
 
-It currently uses [Yummypets/YPImagePicker](https://github.com/Yummypets/YPImagePicker) (Version `4.4.0`) on iOS and 
-[ParkSangGwon/TedImagePicker](https://github.com/ParkSangGwon/TedImagePicker) (Default-Version `1.1.4`) on Android. 
+It currently uses [Yummypets/YPImagePicker](https://github.com/Yummypets/YPImagePicker) (Version `4.5.0`) on iOS and 
+[ParkSangGwon/TedImagePicker](https://github.com/ParkSangGwon/TedImagePicker) (Default-Version `1.2.2`) on Android. 
 
 **This Plugin is in active development!**
 
@@ -109,6 +109,7 @@ This is mostly something like an Exception Message.
 The following Error Codes can be fired by this Plugin:
 - UnsupportedAction
 - WrongJsonObject
+- PickerCanceled  
 - UnknownError
 
 They can be accessed over for Example `window.AdvancedImagePicker.ErrorCodes.UnsupportedAction` and are present in the TypeScript definition too of course. 
@@ -178,7 +179,8 @@ window.AdvancedImagePicker.cleanup(function() {
 
 ## Android
 
-Currently, the Android Library is not able to select Images and Videos at the same Time. See reported Issue [here](https://github.com/ParkSangGwon/TedImagePicker/issues/40).
+- Currently, the Android Library is not able to select Images and Videos at the same Time. See reported Issue [here](https://github.com/ParkSangGwon/TedImagePicker/issues/40).
+- The `PickerCanceled` ErrorCode is currently not supported in Android
 
 # Changelog
 
